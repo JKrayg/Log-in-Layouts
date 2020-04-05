@@ -1,2 +1,2 @@
 # Log-in-Layouts
-An sample home page
+A sample home page

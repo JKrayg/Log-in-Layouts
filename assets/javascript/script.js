@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
   var firebaseConfig = {
     apiKey: "AIzaSyC-XewrIouPXycLdTRf30vAk2cLgMr4y8U",
     authDomain: "login-layout-150ad.firebaseapp.com",
@@ -15,9 +15,9 @@ $(document).ready(function(){
   $('.carousel').carousel({
     interval: 4000
   })
-  
 
-  $("#submit-login").on("click", function() {
+
+  $("#submit-login").on("click", function () {
     var username = $("#email-input").val().trim();
     var password = $("#password-input").val().trim();
 
@@ -26,6 +26,6 @@ $(document).ready(function(){
       Username: username
     })
   })
-  
+
 
 });
