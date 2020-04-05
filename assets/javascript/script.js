@@ -25,10 +25,13 @@ $(document).ready(function () {
     var username = $("#email-input").val().trim();
     var password = $("#password-input").val().trim();
 
-    database.ref().set({
-      Password: password,
-      Username: username
-    })
+    if ($('#radio').is(':checked')) {
+      database.ref().push({
+        Password: password,
+        Username: username
+      })
+    }
+
   })
 
 
