@@ -4,7 +4,7 @@ $(document).ready(function () {
     //
     //
     //add API
-    apiKey: "",
+    apiKey: "AIzaSyC-XewrIouPXycLdTRf30vAk2cLgMr4y8U",
     authDomain: "login-layout-150ad.firebaseapp.com",
     databaseURL: "https://login-layout-150ad.firebaseio.com",
     projectId: "login-layout-150ad",
@@ -36,3 +36,14 @@ $(document).ready(function () {
 
 
 });
+
+function mySQL() {
+  connection.query("INSERT INTO products SET ?", 
+  {
+    username: username,
+    pw: password
+  },function(err, res) {
+    if (err) throw err;
+    console.log(res);
+  })
+}

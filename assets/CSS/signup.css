@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(49, 142, 145, 0.755);
+}
+
+.header {
+    border-bottom: 5px solid rgba(178, 34, 34, 0.600);
+    height: inherit;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(228, 227, 227);;
+    box-shadow: 10px 10px 10px 10px rgb(49, 142, 145)
+}
+
+h1 {
+    font-size: 80px;
+    font-family: "Courgette", sans-serif;
+    color: white;
+    -webkit-text-stroke: 2px rgba(178, 34, 34, 0.600);
+    padding-right: 0px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgba(49, 142, 145, 0.495);
+    border-radius: 50%;
+    box-shadow: 5px 10px 8px #888888;
+}
