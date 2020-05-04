@@ -20,7 +20,7 @@ body {
     box-shadow: 5px 10px 12px #888888;
     height: inherit;
     text-align: center;
-    background-color: rgba(218, 218, 218, 0.81);
+    background-color: rgb(218, 218, 218);
     padding-top: 10px;
     padding-bottom: 10px;
     padding: auto;
@@ -35,7 +35,7 @@ body {
     box-shadow: 5px 10px 12px #888888;
     height: inherit;
     text-align: right;
-    background-color: rgba(218, 218, 218, 0.81);
+    background-color: rgb(218, 218, 218);
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -71,7 +71,7 @@ h1 {
 #submit-login {
     margin: 5px;
     border-radius: 5px;
-    background-color: rgba(159, 157, 157, 0.6);
+    background-color: rgb(182, 182, 182);
 }
 
 .carousel-inner {
@@ -112,7 +112,7 @@ h1 {
 
 footer {
     border-top: 5px solid rgb(208, 130, 130);
-    background-color: rgba(218, 218, 218, 0.81);
+    background-color: rgb(218, 218, 218);
     position: fixed;
     height: 50px;
     bottom: 0;
