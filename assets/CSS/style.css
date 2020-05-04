@@ -127,3 +127,9 @@ footer {
 a {
     float: left;
 }
+
+h3 {
+    font-family: "Courgette", sans-serif;
+    color: rgb(208, 130, 130);
+    text-shadow: 1px 1px 5px #888888;
+}
