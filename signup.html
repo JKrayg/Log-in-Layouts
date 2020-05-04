@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,17 +11,65 @@
     <link href="https://fonts.googleapis.com/css?family=Courgette|Rubik&display=swap" rel="stylesheet">
     <title>Sign Up</title>
 </head>
+
 <body>
-    <div class="header">
-        <div class="row">
-            <div class="col-md-3 homely">
-                <h1>Homely</h1>
+    <div class="container">
+        <div class="header">
+            <div class="row">
+                <div class="col-md-1 logo">
+                    <img id="logo" src="assets/images/Home_Creative_Tail.svg.png">
+                </div>
+                <div class="col-md-2 homely">
+                    <h1>Homely</h1>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <p id="member">Already a memeber?</p>
+                    <form id="login-form">
+                        <label for="email-input">Username</label>
+                        <input id="textbox" type="text" id="email-input"><br>
+                        <label for="password-input">Password</label>
+                        <input id="textbox" type="password" id="password-input"><br>
+                        <input id=radio type=radio value='Rememeber Me'> Remember me
+                        <input id="submit-login" type="submit" value="Log-in">
+                    </form>
+                </div>
             </div>
-            <div class="col-md-2">
-                <img id="logo" src="assets/images/Home_Creative_Tail.svg.png">
+    </div>        
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <form id="form-signup">
+                        <h2>Sign Up</h2>
+                        <div class="form-group">
+                            <label for="firstname">Firstname</label>
+                            <input id="signup" type="name" class="form-control" id="firstname">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Lastname</label>
+                            <input id="signup" type="name" class="form-control" id="lastname">
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email address</label>
+                          <input id="signup" type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="username">Choose a username</label>
+                            <input id="signup" type="name" class="form-control" id="username">
+                        </div>
+                        <div class="form-group">
+                          <label for="Password">Password</label>
+                          <input id="signup" type="password" class="form-control" id="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+                <div class="col-md-4"></div>
             </div>
         </div>
+    
     </div>
+
 
 
 
@@ -37,4 +86,5 @@
     </script>
     <script src="assets/javascript/signup.js"></script>
 </body>
+
 </html>
