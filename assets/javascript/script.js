@@ -36,14 +36,3 @@ $(document).ready(function () {
 
 
 });
-
-function mySQL() {
-  connection.query("INSERT INTO products SET ?", 
-  {
-    username: username,
-    pw: password
-  },function(err, res) {
-    if (err) throw err;
-    console.log(res);
-  })
-}
