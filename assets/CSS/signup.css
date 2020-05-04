@@ -10,7 +10,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 0px;
     background-color: rgb(228, 227, 227);
     box-shadow: 10px 10px 10px rgb(63, 108, 109);
 }
@@ -42,16 +42,16 @@ h1 {
     margin-left: 40px;
 }
 
-form {
+#login-form {
     float: right;
     clear: both;
 }
 
-#member {
+#email-input, #password-input {
     float: right;
 }
 
-#textbox {
+#member {
     float: right;
 }
 
@@ -77,4 +77,8 @@ h2 {
     color: rgb(208, 130, 130);
     padding-right: 0px;
     text-shadow: 1px 1px 8px #888888;
+}
+
+a {
+    margin-right: 10px;
 }
