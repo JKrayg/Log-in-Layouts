@@ -49,6 +49,9 @@ h1 {
 
 #email-input, #password-input {
     float: right;
+    width: 65%;
+    background-color: white;
+    border-radius: 5px;
 }
 
 #member {
@@ -57,6 +60,9 @@ h1 {
 
 #submit-login {
     float: right;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(182, 182, 182);
 }
 
 #form-signup {
