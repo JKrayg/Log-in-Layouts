@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-    border-bottom: 5px solid rgb(208, 130, 130);
+    border-bottom: 15px solid rgb(208, 130, 130);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     height: inherit;
@@ -33,13 +33,14 @@ h1 {
 }
 
 .logo {
-    padding: 0;
+    /*padding: 0;*/
     width: 25%;
+    margin-right: 10px;
 }
 
 .homely {
-    padding: 0;
-    margin-left: 40px;
+    /*padding: 0;*/
+    margin-left: 30px;
 }
 
 #login-form {
