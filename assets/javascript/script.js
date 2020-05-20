@@ -4,7 +4,7 @@ $(document).ready(function () {
     //
     //
     //add API
-    apiKey: "AIzaSyC-XewrIouPXycLdTRf30vAk2cLgMr4y8U",
+    apiKey: "",
     authDomain: "login-layout-150ad.firebaseapp.com",
     databaseURL: "https://login-layout-150ad.firebaseio.com",
     projectId: "login-layout-150ad",
